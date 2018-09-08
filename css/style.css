@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #e3e5f2; }
+
+.container-fluid {
+  padding: 1% 0%;
+  background-color: #5966B0; }
+  .container-fluid .container li a {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white; }
+
+.searcharea {
+  padding: 2% 0%; }
+  .searcharea .content {
+    margin: 0% auto; }
+    .searcharea .content .input-group input {
+      font-family: sans-serif;
+      padding: 2% 5%; }
+
+.search_result_container .searchresult {
+  list-style: none;
+  margin: 0% auto;
+  text-align: left; }
+  .search_result_container .searchresult li {
+    background-color: #7c86c0;
+    color: whitesmoke;
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 3%;
+    font-family: sans-serif;
+    animation: fade .5s;
+    -webkit-animation: fade 0.5s;
+    -moz-animation: fade .5s;
+    -o-animation: fade .5s;
+    transition: max-height 2s ease-out;
+    -webkit-transition: max-height 2s ease-out;
+    -moz-transition: max-height 2s ease-out;
+    -ms-transition: max-height 2s ease-out;
+    -o-transition: max-height 2s ease-out; }
+    .search_result_container .searchresult li h3 {
+      font-family: Helvetica;
+      color: #e3e5f2;
+      padding-bottom: 2%;
+      border-bottom: 1px dotted whitesmoke; }
+    .search_result_container .searchresult li img {
+      float: left;
+      width: 100px;
+      margin-top: 2%;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px; }
+    .search_result_container .searchresult li p {
+      padding: 2% 0%;
+      margin-left: 15%; }
+      @media (max-width: 768px) {
+        .search_result_container .searchresult li p {
+          margin-left: 32%; } }
+      @media (max-width: 576px) {
+        .search_result_container .searchresult li p {
+          margin-left: 39%; } }
+    .search_result_container .searchresult li:hover {
+      height: auto;
+      max-height: 800px;
+      overflow: visible; }
+
+/** Animation **/
+@keyframes fade {
+  0% {
+    opacity: .3; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes fade {
+  0% {
+    opacity: .3; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fade {
+  0% {
+    opacity: .3; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes fade {
+  0% {
+    opacity: .3; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map */
